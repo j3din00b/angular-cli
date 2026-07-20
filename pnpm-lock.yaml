@@ -242,8 +242,8 @@ importers:
         specifier: ^4.17.21
         version: 4.18.1
       magic-string:
-        specifier: 0.30.21
-        version: 0.30.21
+        specifier: 1.0.0
+        version: 1.0.0
       prettier:
         specifier: ^3.0.0
         version: 3.9.5
@@ -368,8 +368,8 @@ importers:
         specifier: 10.2.2
         version: 10.2.2
       magic-string:
-        specifier: 0.30.21
-        version: 0.30.21
+        specifier: 1.0.0
+        version: 1.0.0
       mrmime:
         specifier: 2.0.1
         version: 2.0.1
@@ -780,8 +780,8 @@ importers:
         specifier: 3.3.1
         version: 3.3.1
       magic-string:
-        specifier: 0.30.21
-        version: 0.30.21
+        specifier: 1.0.0
+        version: 1.0.0
       ora:
         specifier: 9.4.1
         version: 9.4.1
@@ -6360,6 +6360,9 @@ packages:
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
+
+  magic-string@1.0.0:
+    resolution: {integrity: sha512-CGvjzMN08iv6w1mm4/x3Gh1hLb4VnyRUA15FFpl6CsCIGGoe36k7kY5KNz9QDbSBN5I/fWHM6ZlIkUTa5xdUEA==}
 
   magicast@0.5.3:
     resolution: {integrity: sha512-pVKE4UdSQ7DvHzivsCIFx2BJn1mHG6KsyrFcaxFx6tONdneEuThrDx0Cj3AMg58KyN4pzYT+LHOotxDQDjNvkw==}
@@ -14525,6 +14528,10 @@ snapshots:
   lru-cache@7.18.3: {}
 
   magic-string@0.30.21:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
+  magic-string@1.0.0:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
